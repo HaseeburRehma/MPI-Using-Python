@@ -1,0 +1,7 @@
+def is_thumb_up(thumb_tip, index_tip, middle_tip, ring_tip, pinky_tip):
+    return thumb_tip.y < index_tip.y and thumb_tip.y < middle_tip.y and thumb_tip.y < ring_tip.y and thumb_tip.y < pinky_tip.y
+
+def is_index_up(thumb_tip, index_tip, middle_tip, ring_tip, pinky_tip):
+    return index_tip.y < middle_tip.y and index_tip.y < ring_tip.y and index_tip.y < pinky_tip.y
+
+# Define other gesture recognition functions similarly
